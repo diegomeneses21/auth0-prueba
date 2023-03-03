@@ -1,3 +1,24 @@
+# Intalar dependencias 
+npm install @auth0/auth0-react
+
+npm install react-json-pretty
+
+
+# Importar en index
+
+import { Auth0Provider } from '@auth0/auth0-react';
+
+
+# Importar en App
+
+import { useAuth0 } from "@auth0/auth0-react";
+
+
+# Importar en Profile
+
+import JSONPretty from "react-json-pretty";
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
